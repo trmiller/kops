@@ -38,7 +38,9 @@ require (
 	github.com/aws/smithy-go v1.22.3
 	github.com/blang/semver/v4 v4.0.0
 	github.com/cert-manager/cert-manager v1.17.1
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/digitalocean/godo v1.141.0
+	github.com/fatih/color v1.18.0
 	github.com/go-ini/ini v1.67.0
 	github.com/go-jose/go-jose/v4 v4.0.5
 	github.com/go-logr/logr v1.4.2
@@ -50,8 +52,11 @@ require (
 	github.com/google/go-tpm-tools v0.4.5
 	github.com/google/uuid v1.6.0
 	github.com/gophercloud/gophercloud/v2 v2.6.0
+	github.com/h2non/filetype v1.1.3
 	github.com/hetznercloud/hcloud-go v1.59.2
 	github.com/jacksontj/memberlistmesh v0.0.0-20190905163944-93462b9d2bb7
+	github.com/joho/godotenv v1.5.1
+	github.com/mozillazg/go-unidecode v0.2.0
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pkg/sftp v1.13.9
 	github.com/prometheus/client_golang v1.21.1
@@ -70,12 +75,12 @@ require (
 	go.opentelemetry.io/otel/trace v1.35.0
 	go.opentelemetry.io/proto/otlp v1.5.0
 	go.uber.org/multierr v1.11.0
-	golang.org/x/crypto v0.36.0
+	golang.org/x/crypto v0.38.0
 	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394
-	golang.org/x/net v0.38.0
+	golang.org/x/net v0.40.0
 	golang.org/x/oauth2 v0.28.0
-	golang.org/x/sync v0.12.0
-	golang.org/x/sys v0.31.0
+	golang.org/x/sync v0.14.0
+	golang.org/x/sys v0.33.0
 	google.golang.org/api v0.228.0
 	google.golang.org/grpc v1.71.0
 	google.golang.org/protobuf v1.36.6
@@ -145,7 +150,6 @@ require (
 	github.com/containerd/stargz-snapshotter/estargz v0.16.3 // indirect
 	github.com/containerd/typeurl/v2 v2.2.3 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.6 // indirect
-	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/cli v27.5.0+incompatible // indirect
 	github.com/docker/distribution v2.8.3+incompatible // indirect
@@ -207,6 +211,7 @@ require (
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mailru/easyjson v0.9.0 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-localereader v0.0.1 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
@@ -260,8 +265,8 @@ require (
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	golang.org/x/mod v0.24.0 // indirect
-	golang.org/x/term v0.30.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/term v0.32.0 // indirect
+	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
 	golang.org/x/tools v0.31.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
